@@ -1,0 +1,83 @@
+.fullscreen-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.timer-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timer-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .time-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-input label {
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+  }
+  
+  .time-input input {
+    width: 60px;
+    padding: 0.4rem;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .timer-display {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: #333;
+  }
+  
+  .timer-buttons button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background 0.3s;
+  }
+  
+  .timer-buttons button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .timer-buttons button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+.footer {
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
